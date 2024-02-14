@@ -17,6 +17,7 @@ config.color_scheme = 'nightfox'
 config.initial_rows = 40
 config.initial_cols = 130
 config.harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' }
+config.enable_scroll_bar = true
 
 -- and finally, return the configuration to wezterm
 return config
